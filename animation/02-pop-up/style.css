@@ -61,3 +61,14 @@ button {
   opacity: 30%;
 }
 
+
+/* Solution */
+
+.popup-modal {
+  transition: opacity 500ms, transform 500ms;
+  transform: translate(-50%, -200%);
+}
+
+.popup-modal.show {
+  transform: translate(-50%, -50%);
+}

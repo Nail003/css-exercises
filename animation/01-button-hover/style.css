@@ -17,3 +17,14 @@ button {
   padding: 16px 24px;
   text-align: center;
 }
+
+
+/* Solution */
+
+button {
+  transition: transform 250ms ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
